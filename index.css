@@ -1,0 +1,212 @@
+body {
+    margin: 0%;
+    font-family: "Happy Monkey", system-ui;
+}
+
+.bilkul_main {
+    background-color: #a2d2ff;
+    background: linear-gradient(#a2d2ff, #efb0c9);
+    margin: 0%;
+    /* padding-bottom: 50px; */
+    padding-top: 15px;
+}
+
+.main .css1 {
+    color: white;
+    text-shadow: -1px 1px 3px black;
+    margin: 3px;
+    background-color: #efb0c9;
+    padding: 5px 9px;
+    border-radius: 8px;
+}
+
+.gift_title {
+    margin-top: 10px;
+    margin-bottom: 15px;
+    color: white;
+    text-shadow: -2px 2px 4px black;
+}
+
+.gift_hint {
+    box-shadow: 1px 3px 3px rgb(123, 176, 196);
+    transition: all 350ms ease;
+    margin-bottom: 0px;
+    background-color: #fed001;
+    padding: 8px 14px;
+    border-radius: 14px;
+    color: #e45217;
+}
+
+.gift_hint:hover {
+    letter-spacing: 0.6px;
+}
+
+.main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.profile_pic {
+    transition: all 0.3s ease;
+    margin-top: 35px;
+    margin-bottom: 7px;
+    border: 5px solid #efb0c9;
+    object-fit: cover;
+    object-position: 25% 6%;
+    width: 240px;
+    height: 230px;
+    border-radius: 50%;
+}
+
+.profile_pic:hover {
+    cursor: pointer;
+    transform: scale(1.01);
+}
+
+.gift_section {
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.gift_img {
+    width: 400px;
+    border: 5px solid white;
+    border-radius: 10px;
+    height: 320px;
+    background-image: url("images/gif.gif");
+    background-size: cover;
+    background-position: center;
+
+}
+
+.gift_friend {
+    width: 400px;
+    border: 5px solid white;
+    border-radius: 10px;
+    height: 270px;
+    background-image: url("images/gif.gif");
+    background-size: cover;
+    background-position: center 70%;
+
+}
+
+.gift_title {
+    transition: all 350ms ease;
+}
+
+.gift_title:hover {
+    letter-spacing: 0.3px;
+}
+
+.gift_img:hover {
+    cursor: pointer;
+}
+
+.gift_hafiz:hover {
+    background-image: url("images/Pizza\ Cats\ GIF\ \(2\).gif");
+}
+
+.gift_taha:hover {
+    background-image: url("images/taha.gif");
+}
+
+.gift_ahsen:hover {
+    background-image: url("images/ahsen.gif");
+}
+
+.gift_muzammal:hover {
+    background-image: url("images/muzzamal.gif");
+}
+
+.gift_danyaal:hover {
+    background-image: url("images/danyaal.gif");
+}
+
+.gift_anes {
+    background-position: 20% 20%;
+}
+
+.gift_anes:hover {
+    background-image: url("images/pizza\ love\ GIF.gif");
+}
+
+.gift_bonus:hover {
+    background-image: url("images/hafiz_ahsen.jfif");
+}
+
+.gift_friend:hover {
+    background-image: url("images/friendship.gif");
+}
+
+.name {
+    color: #fd63b9;
+}
+
+.footer_div {
+    background-color: #d4bd60;
+    margin: 0%;
+}
+
+.footer {
+    text-align: center;
+    padding: 10px;
+    color: white;
+}
+
+#friendship {
+    margin-bottom: 50px;
+}
+
+.ft {
+    color: #df2d29;
+}
+
+@keyframes slideRight {
+    from {
+        opacity: 0;
+        transform: translateX(70%)
+    }
+
+    to {
+        opacity: 1;
+        transform: translateX(0%)
+    }
+
+}
+
+.right_slide {
+    animation: slideRight 2s ease forwards;
+}
+
+@keyframes slideLeft {
+    from {
+        opacity: 0;
+        transform: translateX(-70%)
+    }
+
+    to {
+        opacity: 1;
+        transform: translateX(0%)
+    }
+
+}
+
+.left_slide {
+    animation: slideLeft 2s ease forwards;
+}
+
+.header {
+    font-family: blazzing;
+    color: #feb802;
+    text-shadow: -1px 1px 3px black;
+    margin: 3px;
+    font-size: 50px;
+}
+
+@font-face {
+    font-family: blazzing;
+    src: url(images/blazing-hollow-personal-use.regular.ttf);
+}
