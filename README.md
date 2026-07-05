@@ -8,9 +8,9 @@ Live demo will be available soon.
 
 ## Preview
 
-![Home Page](images/screenshot-1.png)
-![Gift Section](images/screenshot-2.png)
-![Final Section](images/screenshot-3.png)
+![Home Page](images/Screenshot-1.png)
+![Gift Section](images/Screenshot-2.png)
+![Final Section](images/Screenshot-3.png)
 
 ## Features
 
