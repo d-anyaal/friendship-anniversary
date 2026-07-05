@@ -60,7 +60,7 @@ body {
 }
 
 .profile_pic:hover {
-    cursor: pointer;
+
     transform: scale(1.01);
 }
 
