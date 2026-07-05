@@ -11,6 +11,7 @@ Live demo will be available soon.
 ![Home Page](images/Screenshot-1.png)
 ![Gift Section](images/Screenshot-2.png)
 ![Final Section](images/Screenshot-3.png)
+![Zoom out Pic](images/Screenshot-4.png)
 
 ## Features
 
